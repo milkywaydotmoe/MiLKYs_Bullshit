@@ -8,7 +8,7 @@
   "description": "",
   "prefix": "mktjk",
   "main_file": "main.lua",
-  "version": "1.1.4_beta1",
+  "version": "1.2_beta1",
   "priority": 2147483646,
   "badge_colour": "78f578",
   "badge_text_colour": "29ba5e",
