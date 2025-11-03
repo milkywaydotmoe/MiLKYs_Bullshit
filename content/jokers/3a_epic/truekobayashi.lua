@@ -2,7 +2,7 @@ SMODS.Joker{ --True Kobayashi
     key = "truekobayashi",
     config = {
         extra = {
-            reroll_amount = 1
+            save_reroll_cost = 5
         }
     },
     loc_txt = {
@@ -57,7 +57,8 @@ SMODS.Joker{ --True Kobayashi
         return true
     end
 }))
-        SMODS.change_free_rerolls(card.ability.extra.reroll_amount)
+        card.ability.extra.save_reroll_cost = G.GAME.round_resets.reroll_cost
+        G.GAME.round_resets.reroll_cost = 0
     end,
 
     remove_from_deck = function(self, card, from_debuff)
@@ -69,7 +70,7 @@ SMODS.Joker{ --True Kobayashi
         return true
     end
 }))
-        SMODS.change_free_rerolls(-(card.ability.extra.reroll_amount))
+        G.GAME.round_resets.reroll_cost = card.ability.extra.save_reroll_cost
     end
 } 
       
