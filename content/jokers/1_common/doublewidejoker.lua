@@ -35,7 +35,7 @@ SMODS.Joker{ --Double Wide Joker
     eternal_compat = true,
     perishable_compat = true,
     unlocked = true,
-    discovered = true,
+    discovered = false,
     atlas = '2widejoker',
     pools = { 
         ["milkys_jokers"] = true 

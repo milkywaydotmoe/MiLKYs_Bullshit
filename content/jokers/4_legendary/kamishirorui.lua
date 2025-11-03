@@ -30,7 +30,7 @@ SMODS.Joker{ --神代 類
     eternal_compat = true,
     perishable_compat = true,
     unlocked = true,
-    discovered = true,
+    discovered = false,
     atlas = 'jokers',
 
 -- note to self. find a way to make the ruis stop mitosing. 

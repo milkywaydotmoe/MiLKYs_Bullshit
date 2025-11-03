@@ -28,7 +28,7 @@ SMODS.Joker{ --ruby
     eternal_compat = true,
     perishable_compat = true,
     unlocked = true,
-    discovered = true,
+    discovered = false,
     atlas = 'jokers',
 
     in_pool = function (self, args)

@@ -38,7 +38,7 @@ SMODS.Joker{ --Mr. Morale and the Big Steppers
     eternal_compat = true,
     perishable_compat = true,
     unlocked = true,
-    discovered = true,
+    discovered = false,
     atlas = 'jokers',
     pools = { 
         ["milkys_jokers"] = true 

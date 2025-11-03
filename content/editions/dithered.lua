@@ -6,7 +6,7 @@ SMODS.Shader {
 SMODS.Edition {
   key = "dithered",
   shader = "dithered",
-
+  discovered = false,
   in_shop = true,
   weight = 4,
   extra_cost = 7,

@@ -32,7 +32,7 @@ SMODS.Joker{ --Instant Photochad
     eternal_compat = true,
     perishable_compat = true,
     unlocked = true,
-    discovered = true,
+    discovered = false,
     soul_pos = {x = 0, y = 5},
     atlas = 'jokers',
     pools = { 

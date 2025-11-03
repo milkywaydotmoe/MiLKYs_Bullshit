@@ -37,7 +37,7 @@ SMODS.Joker { -- {f:5}天馬 司
     eternal_compat = true,
     perishable_compat = true,
     unlocked = true,
-    discovered = true,
+    discovered = false,
     atlas = 'jokers',
 
     calculate = function(self, card, context)

@@ -27,7 +27,7 @@ SMODS.Joker{ --Eru Futate
     eternal_compat = true,
     perishable_compat = true,
     unlocked = true,
-    discovered = true,
+    discovered = false,
     atlas = 'jokers',
 
     calculate = function(self, card, context)

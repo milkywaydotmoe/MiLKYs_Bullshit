@@ -40,7 +40,7 @@ SMODS.Joker{ -- MiLKY-P
     eternal_compat = true,
     perishable_compat = true,
     unlocked = true,
-    discovered = true,
+    discovered = false,
     atlas = 'selfinsert',
     in_pool = function (self, args)
         return not args or args.source ~= "mktjk_milky_pack"
