@@ -131,6 +131,13 @@ return {
                     "{C:inactive,s:0.9}@candycaneanniahlator_etherware2"
                 },
             },
+            mktjk_credit_pooper = {
+                name = "Art done by",
+                text = {
+                    "{s:1.5}Pooper McFart",
+                    "{C:inactive,s:0.9}@poopermcfart"
+                },
+            },
         },
         Mod = {
             milkysbullshit = {

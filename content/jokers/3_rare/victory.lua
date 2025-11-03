@@ -35,7 +35,7 @@ SMODS.Joker{ --???????
     pools = { ["milkys_jokers"] = true },
 
     loc_vars = function(self, info_queue, card)
-        
+        queue[#queue+1] = {key = 'mktjk_credit_pooper', set = 'Other'}
         return {vars = {card.ability.extra.WELOVEIT}}
     end,
 
