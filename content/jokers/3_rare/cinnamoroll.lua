@@ -23,7 +23,7 @@ SMODS.Joker{ --Cinnamoroll
         x = 4,
         y = 7
     },
-
+    pronouns = "he_him",
     cost = 6,
     rarity = 3,
     blueprint_compat = true,

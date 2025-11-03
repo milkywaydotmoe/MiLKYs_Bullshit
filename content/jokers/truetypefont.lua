@@ -86,6 +86,7 @@ SMODS.Joker{ --TrueType Font
         x = 0,
         y = 7
     },
+    pronouns = "they_them",
     cost = _G.mktjk_fontprice,
     rarity = _G.mktjk_fontlevel,
     blueprint_compat = true,
