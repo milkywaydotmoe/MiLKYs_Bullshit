@@ -55,7 +55,7 @@ SMODS.Joker{ --Baller Be Thy Name
                 -- local kingCount = 0
 
                 for _, card in ipairs(context.scoring_hand) do
-                    if card:is_face() then
+                    if card:is_face(true) then
                         local id = card:get_id()
                             if cardswithfaces[id] then
                                 cardswithfaces[id] = cardswithfaces[id] + 1
