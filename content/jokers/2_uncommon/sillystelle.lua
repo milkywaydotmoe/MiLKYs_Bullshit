@@ -12,7 +12,7 @@ SMODS.Joker{ --Silly Stelle Steelbrooke
             [1] = 'This Joker gains {C:white,X:mult}X#2#{} Mult per',
             [2] = '{C:attention}consecutive{} card played',
             [3] = '{C:inactive}(Resets at end of round)',
-            [4] = '{C:inactive}(Currently{} {C:white,X:mult}X#1#{} {C:inactive}Mult{})'
+            [4] = '{C:inactive}(Currently{} {C:white,X:mult}X#1#{} {C:inactive}Mult){}'
         },
         ['unlock'] = {
             [1] = 'Unlocked by default.'
