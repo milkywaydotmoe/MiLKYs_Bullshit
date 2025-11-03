@@ -27,7 +27,7 @@ SMODS.Joker{ --Minecraft Parkour
     eternal_compat = true,
     perishable_compat = true,
     unlocked = true,
-    discovered = true,
+    discovered = false,
     atlas = 'mcparkour',
     pools = { 
         ["milkys_jokers"] = true 

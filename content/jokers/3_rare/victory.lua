@@ -30,11 +30,11 @@ SMODS.Joker{ --???????
     eternal_compat = true,
     perishable_compat = true,
     unlocked = true,
-    discovered = true,
+    discovered = false,
     atlas = 'jokers',
     pools = { ["milkys_jokers"] = true },
 
-    loc_vars = function(self, info_queue, card)
+    loc_vars = function(self, queue, card)
         queue[#queue+1] = {key = 'mktjk_credit_pooper', set = 'Other'}
         return {vars = {card.ability.extra.WELOVEIT}}
     end,

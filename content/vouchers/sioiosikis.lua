@@ -14,7 +14,7 @@ SMODS.Voucher { -- Should I Open It or Should I Keep It Sealed
     },
     cost = 10,
     unlocked = true,
-    discovered = true,
+    discovered = false,
     atlas = 'vouchers',
     pronouns = "he_him",
 

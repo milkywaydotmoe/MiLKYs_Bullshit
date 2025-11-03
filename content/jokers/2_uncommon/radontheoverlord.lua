@@ -29,7 +29,7 @@ SMODS.Joker{ --RADON, THE OVERLORD.
     eternal_compat = true,
     perishable_compat = true,
     unlocked = true,
-    discovered = true,
+    discovered = false,
     atlas = 'radon',
     pools = { 
         ["milkys_jokers"] = true 

@@ -23,7 +23,7 @@ SMODS.Joker{ --MacOS 26 Tahoe Developer Beta 3
     eternal_compat = true,
     perishable_compat = true,
     unlocked = true,
-    discovered = true,
+    discovered = false,
     atlas = 'jokers',
     pools = { 
         ["milkys_jokers"] = true 

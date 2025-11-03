@@ -28,7 +28,7 @@ SMODS.Joker { -- Rotten Girl Miku
     eternal_compat = true,
     perishable_compat = true,
     unlocked = true,
-    discovered = true,
+    discovered = false,
     atlas = 'jokers',
     pools = { 
         ["milkys_jokers"] = true 

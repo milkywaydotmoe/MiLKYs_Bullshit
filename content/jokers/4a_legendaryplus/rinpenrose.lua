@@ -22,6 +22,6 @@ SMODS.Joker{ --Rin Penrose And The Balatro Polycule
     eternal_compat = true,
     perishable_compat = true,
     unlocked = true,
-    discovered = true,
+    discovered = false,
     atlas = 'jokers',
 }

@@ -38,7 +38,7 @@ SMODS.Joker{ --Milkys Fuckass Plushie
     eternal_compat = true,
     perishable_compat = true,
     unlocked = false,
-    discovered = true,
+    discovered = false,
     atlas = 'jokers',
 
     calculate = function(self, card, context)
