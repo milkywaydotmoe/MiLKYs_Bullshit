@@ -39,9 +39,6 @@ SMODS.Joker { -- {f:5}天馬 司
     unlocked = true,
     discovered = true,
     atlas = 'jokers',
-    pools = { 
-        ["milkys_jokers"] = true 
-    },
 
     calculate = function(self, card, context)
         if context.cardarea == G.jokers and context.joker_main then

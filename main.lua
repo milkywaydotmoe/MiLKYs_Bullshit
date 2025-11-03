@@ -316,7 +316,7 @@ SMODS.Sound({
 -- make the object type for all milky jokers
 SMODS.ObjectType({
 	key = "milkys_jokers",
-	default = "j_mktjk_milky",
+	default = "j_mktjk_haruurara",
 	cards = {},
 	rarities = {
 		{ key = "Common", rate = 0.7 },
