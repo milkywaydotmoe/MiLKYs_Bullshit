@@ -11,9 +11,8 @@ SMODS.Joker{ --Cinnamoroll
         ['name'] = 'Cinnamoroll',
         ['text'] = {
             'Gains {X:blue,C:white}#1#X{} {C:blue}Chips{} when a',
-            '{C:attention}Food Joker{} is {C:attention}eaten{}.',
+            '{C:attention}Food Joker{} is {C:attention}\"eaten\"{} {C:inactive}(destroyed){}',
             '{C:inactive}(Currently {}{X:blue,C:white}#2#X{}{C:inactive} Chips){}',
-            '{C:inactive, s:1.2}Currently unimplemented, please check later.{}'
         },
         ['unlock'] = {
             [1] = 'Unlocked by default.'
@@ -42,8 +41,15 @@ SMODS.Joker{ --Cinnamoroll
     end,
 
     calculate = function(self, card, context)
-        if context.cardarea == G.jokers and context.joker_type_destroyed then
-            
+        if context.cardarea == G.jokers and context.joker_type_destroyed and (context.card.config.center.pools or {}).Food then
+            SMODS.scale_card(card, {
+                ref_table = card.ability.extra,
+                ref_value = "chipmoroll",
+                scalar_value = "increment",
+            })
+            return {
+                message = localize("k_upgrade_ex")
+            }
         end
 
         if context.cardarea == G.jokers and context.joker_main then

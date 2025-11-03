@@ -36,7 +36,6 @@ SMODS.Joker{ --Dont Tap The Joker
     pools = { 
         ["milkys_jokers"] = true 
     },
-
     calculate = function(self, card, context)
         -- apply mult
         if context.cardarea == G.jokers and context.joker_main then
@@ -49,15 +48,8 @@ SMODS.Joker{ --Dont Tap The Joker
                 }
                 
         end
-
-        -- shat
-        if context.destroy_card and context.cardarea == G.play and SMODS.has_enhancement(context.destroy_card, 'm_glass') then 
-            return { 
-                remove = true 
-            } 
+        if context.mktjk_glass_broken and not context.blueprint then
+            SMODS.destroy_cards(card)
         end
-
-        
-
     end
 }
