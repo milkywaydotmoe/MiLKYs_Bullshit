@@ -24,7 +24,7 @@ SMODS.Joker{ --RADON, THE OVERLORD.
     },
     cost = 7,
     rarity = 2,
-    pronouns = he_him,
+    pronouns = "he_him",
     blueprint_compat = false,
     eternal_compat = true,
     perishable_compat = true,

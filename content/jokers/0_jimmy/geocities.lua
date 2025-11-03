@@ -7,8 +7,9 @@ SMODS.Joker{ --Geocities
     loc_txt = {
         ['name'] = 'Geocities',
         ['text'] = {
-            [1] = '{X:red,C:white}X4{} Mult if {C:attention}Geocities{}',
-            [2] = 'is {C:attention}online{}'
+            '{X:red,C:white}X4{} Mult if {C:attention}Geocities{}',
+            'is {C:attention}online{}',
+            '{C:inactive}(Currently offline.){}'
         },
         ['unlock'] = {
             [1] = 'Unlocked by default.'
