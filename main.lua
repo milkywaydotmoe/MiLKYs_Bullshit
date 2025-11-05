@@ -321,6 +321,27 @@ SMODS.Sound({
 	end,
 })
 
+SMODS.Sound({
+	key = "brand_new_future_music",
+	path = "BrandNewFuture.ogg",
+	select_music_track = function(self)
+		if G.jokers then
+			local index = 0
+			for i, joker in ipairs(G.jokers.cards) do
+				if
+					joker.config.center.key == "j_mktjk_djmixer"
+					and G.jokers.cards[i - 1]
+					and G.jokers.cards[i - 1].config.center.key == "j_mktjk_djdeck"
+					and G.jokers.cards[i + 1]
+					and G.jokers.cards[i + 1].config.center.key == "j_mktjk_djdeck"
+				then
+					return 101
+				end
+			end
+		end
+	end,
+})
+
 -- make the object type for all milky jokers
 SMODS.ObjectType({
 	key = "milkys_jokers",
@@ -615,10 +636,10 @@ end
 
 local cardshatterref = Card.shatter
 function Card:shatter()
-    cardshatterref(self)
-    if SMODS.has_enhancement(self, "m_glass") then
-        SMODS.calculate_context({mktjk_glass_broken = true})
-    end
+	cardshatterref(self)
+	if SMODS.has_enhancement(self, "m_glass") then
+		SMODS.calculate_context({ mktjk_glass_broken = true })
+	end
 end
 
 -- date calc
